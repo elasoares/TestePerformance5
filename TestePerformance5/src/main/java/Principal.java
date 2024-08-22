@@ -1,6 +1,6 @@
 public class Principal {
     public static void main(String[] args) {
-        int numero = 5;
+        int numero = 0;
         int fatorial =  calcularFatorial(numero);
         System.out.println("O fatorial de " + numero + " é: " + fatorial);
     }
@@ -8,10 +8,6 @@ public class Principal {
 
         if (numero == 0) {
             return 1;
-        }
-
-        if(numero < 0){
-            throw new ArithmeticException("Erro ao calcular fatorial. Fatorial não pode ser negativo.");
         }
 
         int resultado = 1;
