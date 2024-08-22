@@ -1,5 +1,6 @@
 # Cálculo do Fatorial
 ## Cadeira: Desenvolvimento de Serviços Web e Testes com Java
+## Teste performance 1
 
 Este projeto contém um programa em Java que calcula o fatorial de um número. Ele inclui:
 
